@@ -1,0 +1,357 @@
+{
+  "periodos": [
+    {
+      "id": "1",
+      "codigo": "P24-01",
+      "ano": 2024,
+      "semestre": 1
+    }
+  ],
+  "programas": [
+    {
+      "id": "1",
+      "nombre": "Ingeniería de Sistemas",
+      "nivel": "Pregrado"
+    },
+    {
+      "id": "2",
+      "nombre": "Ingeniería de Mecatronica",
+      "nivel": "Pregrado"
+    }
+  ],
+  "tarifas": [
+    {
+      "id": "1",
+      "costo_credito": 1000,
+      "periodo_id": 1,
+      "programa_id": 1
+    },
+    {
+      "id": "2",
+      "costo_credito": 1100,
+      "periodo_id": 1,
+      "programa_id": 2
+    }
+  ],
+  "departamentos": [
+    {
+      "id": "1",
+      "nombre": "Departamento de Informática"
+    },
+    {
+      "id": "2",
+      "nombre": "Departamento de Matemáticas"
+    }
+  ],
+  "profesores": [
+    {
+      "id": "1",
+      "tipo_documento": "CC",
+      "numero_documetno": "13788555",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "departamento_id": 1
+    },
+    {
+      "id": "2",
+      "tipo_documento": "CC",
+      "numero_documetno": "137880000",
+      "nombre": "María",
+      "apellido": "Gómez",
+      "departamento_id": 2
+    },
+    {
+      "id": "3",
+      "tipo_documento": "CC",
+      "numero_documetno": "1098763458",
+      "nombre": "Alfonso",
+      "apellido": "Florez",
+      "departamento_id": "1"
+    },
+    {
+      "id": "4",
+      "tipo_documento": "Pasaporte",
+      "numero_documetno": "123456",
+      "nombre": "Carlos",
+      "apellido": "Diaz",
+      "departamento_id": "1"
+    },
+    {
+      "id": "5",
+      "tipo_documento": "CC",
+      "numero_documetno": "123456789",
+      "nombre": "Angie",
+      "apellido": "Gonzalez",
+      "departamento_id": "2"
+    },
+    {
+      "id": "6",
+      "tipo_documento": "CC",
+      "numero_documetno": "123456456",
+      "nombre": "sebastian",
+      "apellido": "nuñez",
+      "departamento_id": "1"
+    }
+  ],
+  "alumnos": [
+    {
+      "id": "1",
+      "nombre": "Carlos",
+      "apellido": "Rodríguez",
+      "tipo_documento": "Cédula",
+      "numero_documento": "123456789",
+      "ciudad_residencia": "Bogotá",
+      "direccion": "Calle 123",
+      "telefono": "1234567890",
+      "fecha_nacimiento": "1990-01-01",
+      "sexo": "Masculino",
+      "programa_id": 1
+    },
+    {
+      "id": "2",
+      "nombre": "Ana",
+      "apellido": "Martínez",
+      "tipo_documento": "Cédula de Extranjería",
+      "numero_documento": "987654321",
+      "ciudad_residencia": "Medellín",
+      "direccion": "Carrera 456",
+      "telefono": "0987654321",
+      "fecha_nacimiento": "1992-05-15",
+      "sexo": "Femenino",
+      "programa_id": 2
+    },
+    {
+      "id": 5,
+      "nombre": "Brandon",
+      "apellido": "Camargo",
+      "tipo_documento": "",
+      "numero_documetno": "",
+      "ciudad_residencia": "asdsad",
+      "direccion": "asdas",
+      "telefono": "12312",
+      "fecha_nacimiento": "1994-10-10",
+      "sexo": "Masculino",
+      "programa_id": "12321"
+    }
+  ],
+  "cursos": [
+    {
+      "id": "1",
+      "nombre": "Programación Avanzada",
+      "codigo": "PROG-AVA",
+      "guia_catedra": "URL_Guia_Catedra.pdf"
+    },
+    {
+      "id": "2",
+      "nombre": "Álgebra Lineal",
+      "codigo": "ALG-LI",
+      "guia_catedra": "URL_Guia_Catedra.pdf"
+    },
+    {
+      "id": 5,
+      "nombre": "Sociologia",
+      "codigo": "SOC-GI",
+      "guia_catedra": "URL_Guia_Catedra.pdf"
+    }
+  ],
+  "salones": [
+    {
+      "id": "1",
+      "capacidad_alumnos": 30,
+      "edificio": "Edificio A",
+      "piso": 2,
+      "numero_identificacion": "S001"
+    },
+    {
+      "id": "2",
+      "capacidad_alumnos": 25,
+      "edificio": "Edificio B",
+      "piso": 3,
+      "numero_identificacion": "S002"
+    },
+    {
+      "id": "3",
+      "capacidad_alumnos": 28,
+      "edificio": "Edificio A",
+      "piso": 1,
+      "numero_identificacion": "S003"
+    }
+  ],
+  "asignaturas": [
+    {
+      "id": "1",
+      "curso_id": 1,
+      "codigo": "PROG-AVA-PER-2024",
+      "creditos": 4,
+      "profesor_id": 1,
+      "cupos_disponibles": 20,
+      "programa_id": 1,
+      "horario_clases": [
+        {
+          "idhorario": "11",
+          "dia": "Lunes",
+          "hora_inicio": "08:00",
+          "hora_fin": "10:00",
+          "salon_id": 1
+        },
+        {
+          "idhorario": "12",
+          "dia": "Martes",
+          "hora_inicio": "09:00",
+          "hora_fin": "13:00",
+          "salon_id": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "curso_id": 2,
+      "codigo": "ALG-LI-PER-2024",
+      "creditos": 3,
+      "profesor_id": 2,
+      "cupos_disponibles": 15,
+      "programa_id": 2,
+      "horario_clases": [
+        {
+          "idhorario": "21",
+          "dia": "Lunes",
+          "hora_inicio": "10:00",
+          "hora_fin": "12:00",
+          "salon_id": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "curso_id": "1",
+      "codigo": "PROG-AVA",
+      "cupos_disponibles": "30",
+      "creditos": "12",
+      "profesor_id": "1",
+      "programa_id": "",
+      "horario_clases": [
+        {
+          "idhorario": "51",
+          "dia": "Martes",
+          "hora_inicio": "8:00 AM",
+          "hora_fin": "9:00 AM",
+          "salon_id": "1"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "curso_id": "1",
+      "codigo": "PROG-AVA",
+      "cupos_disponibles": "30",
+      "creditos": "12",
+      "profesor_id": "1",
+      "programa_id": "",
+      "horario_clases": [
+        {
+          "idhorario": "71",
+          "dia": "Martes",
+          "hora_inicio": "8:00 AM",
+          "hora_fin": "9:00 AM",
+          "salon_id": "1"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "curso_id": "1",
+      "codigo": "PROG-AVA",
+      "cupos_disponibles": "30",
+      "creditos": "4",
+      "profesor_id": "1",
+      "programa_id": "",
+      "horario_clases": [
+        {
+          "idhorario": "91",
+          "dia": "Lunes",
+          "hora_inicio": "8:00",
+          "hora_fin": "14:00",
+          "salon_id": "1"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "curso_id": "",
+      "codigo": "",
+      "cupos_disponibles": "30",
+      "creditos": "",
+      "profesor_id": "",
+      "programa_id": "",
+      "horario_clases": [
+        {
+          "idhorario": "111",
+          "dia": "Lunes",
+          "hora_inicio": "9:00",
+          "hora_fin": "10:00",
+          "salon_id": "1"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "curso_id": "",
+      "codigo": "",
+      "cupos_disponibles": "30",
+      "creditos": "",
+      "profesor_id": "",
+      "programa_id": "",
+      "horario_clases": [
+        {
+          "idhorario": "131",
+          "dia": "Lunes",
+          "hora_inicio": "8:00",
+          "hora_fin": "9:00",
+          "salon_id": "1"
+        }
+      ]
+    }
+  ],
+  "matriculas": [
+    {
+      "id": 1,
+      "estudiante_id": "1",
+      "asignatura_id": "1",
+      "periodo_id": "",
+      "precio": "",
+      "idhorario": "12"
+    },
+    {
+      "id": 3,
+      "estudiante_id": "1",
+      "asignatura_id": "1",
+      "periodo_id": "",
+      "precio": "",
+      "idhorario": "12"
+    },
+    {
+      "id": 5,
+      "estudiante_id": "1",
+      "asignatura_id": "1",
+      "periodo_id": "",
+      "precio": "",
+      "idhorario": "11"
+    },
+    {
+      "id": 7,
+      "estudiante_id": "1",
+      "asignatura_id": "5",
+      "periodo_id": "",
+      "precio": "",
+      "idhorario": "51"
+    },
+    {
+      "id": 9,
+      "estudiante_id": "5",
+      "asignatura_id": "1",
+      "periodo_id": "",
+      "precio": "",
+      "idhorario": "12"
+    }
+  ]
+}
